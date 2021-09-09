@@ -94,7 +94,7 @@ function keyPressed(){
 
 
   if(keyCode === UP_ARROW){
-    Matter.Body.applyForce(bob4.body,bob4.body.position, {x:-50,y:-30});
+    Matter.Body.applyForce(bob4.body,bob4.body.position, {x:-50,y:-40});
       
   }
 }
